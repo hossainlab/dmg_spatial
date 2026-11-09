@@ -1,0 +1,11 @@
+{
+ "python": "3.11.13",
+ "scanpy": "1.11.5",
+ "cell2location": "0.1.5",
+ "liana": "1.10.0",
+ "squidpy": "1.8.2",
+ "torch": "2.14.0+cu130",
+ "scipy": "1.17.1",
+ "pandas": "2.3.3",
+ "numpy": "2.4.6"
+}

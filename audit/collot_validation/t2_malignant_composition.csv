@@ -1,0 +1,4 @@
+section,frac_OPC-like,frac_AC-like,frac_OC-like,frac_MES-like,frac_Cycling,top_malignant,opc_like_rank
+Collot_BT01_192_core_HE,0.088,0.394,0.077,0.319,0.123,AC-like,4
+Collot_VUMC_11_pons_HE,0.099,0.184,0.078,0.415,0.224,MES-like,4
+Collot_VUMC_17_pons_HE,0.162,0.127,0.097,0.26,0.353,Cycling,3

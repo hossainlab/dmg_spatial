@@ -1,0 +1,9 @@
+cohort,gene,pct_malignant_cells_expressing,mean_log_norm
+Liu2022,PDGFRA,63.4,1.36
+Liu2022,OLIG1,68.3,0.879
+Liu2022,OLIG2,46.6,0.242
+Liu2022,SOX10,55.1,0.494
+Jessa2022,PDGFRA,21.7,0.401
+Jessa2022,OLIG1,21.0,0.344
+Jessa2022,OLIG2,15.0,0.211
+Jessa2022,SOX10,17.4,0.244

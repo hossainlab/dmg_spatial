@@ -1,0 +1,23 @@
+id,type,files,report_section,caption
+Figure 1,figure,fig01_reference_atlas (.png/.svg),Data / Methods,"Harmonized Liu+Jessa single-cell reference atlas (13 labels: 5 malignant states, 8 TME populations)"
+Figure 2,figure,fig02_state_abundance_maps (.png/.svg),Results 1,"Deconvolved state abundance maps for representative sections of the three discovery cohorts (a Ren DMG1, b Kordowski PonsB, c Huchede pDMG1; 6 populations per section)"
+Figure 3,figure,fig03_niche_maps (.png/.svg),Results 1,"Spatial niche assignments (neighbor-smoothed composition, Leiden; niches named by defining population) for the same three sections"
+Figure 4,figure,fig04_colocalization_heatmaps (.png/.svg),Results 1,"Cohort-mean 13x13 abundance-correlation (colocalization) matrices (a Ren DMG, b Kordowski, c Huchede, d Ren GBM)"
+Figure 5,figure,fig05_cohort_concordance (.png/.svg),Results 1,"Cross-cohort concordance of colocalization structure: (a) deconvolution-based pairwise concordance; (b) deconvolution vs reference-free marker metric with bootstrap 95% CIs"
+Figure 6,figure,fig06_xenium_territoriality (.png/.svg),Results 1-2,"Xenium single-cell confirmation (H3K27M_P6): (a) state map (59,969 confident cells); (b) neighborhood enrichment z-scores — state territoriality and myeloid exclusion"
+Figure 7,figure,fig07_rostrocaudal_axis (.png/.svg),Results 3,"Rostro-caudal brainstem axis (Kordowski, 10 sections): (a) deconvolved state abundances; (b) reference-free OPC-like marker score"
+Figure 8,figure,fig08_interface_lr_crosstalk (.png/.svg),Results 4,"Top 25 interface crosstalk pairs ranked by DMG-cohort support; x = mean LR score in Kordowski, color = recurrence in Ren GBM sections (DMG-selectivity)"
+Figure 9,figure,fig09_external_validation (.png/.svg),External validation,"Held-out Collot 2026 cohort: (a) colocalization concordance vs discovery cohorts; (b) malignant composition per section; (c) recovery of recurrent and DMG-leaning LR pairs"
+Table 1,table,table01_dataset_overview.csv,Data,"Dataset overview: cohorts, platforms, accessions, download URLs, roles"
+Table 2,table,table02_mapping_qc_summary.csv,Methods,"cell2location mapping QC per section (spots, genes, epochs, final ELBO; 24/24 finite)"
+Table 3,table,table03_per_section_qc_summary.csv,Methods,Per-section QC and spatial-domain summary
+Table 4,table,table04_morans_i_by_section.csv,Results 1,Moran's I spatial autocorrelation per population per section
+Table 5-8,table,"table05-08_colocalization_mean_{Ren_DMG, Ren_GBM, Huchede, Kordowski}.csv",Results 1,Cohort-mean colocalization matrices
+Table 9,table,table09_cohort_colocalization_concordance.csv,Results 1,Pairwise cohort concordance of colocalization structure
+Table 10,table,table10_xenium_nhood_enrichment_z.csv,Results 1-2,Xenium neighborhood enrichment z-score matrix
+Table 11,table,table11_kordowski_rostrocaudal_abundances.csv,Results 3,Per-region mean abundances along the brainstem axis
+Table 12,table,table12_lr_headline_replicated.csv,Results 4,250 same-population interactions recurrent in >=2 DMG cohorts (96 in all three)
+Table 13,table,table13_lr_interface_crosstalk.csv,Results 4,79 interface crosstalk pairs with per-cohort section support
+Table 14,table,table14_lr_recurrence_by_cohort.csv,Results 4,LR recurrence counts by cohort
+Table 15,table,table15_kordowski_published_lr_overlap.csv,Results 4,Overlap with Kordowski published top-5% LR set (all sections)
+Table 16,table,table16_kordowski_published_lr_overlap_independent.csv,Results 4,"Overlap using independent cohorts only (Ren DMG + Huchede): 73-83%, mean 79%"

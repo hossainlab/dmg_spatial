@@ -1,0 +1,5 @@
+comparison,n_collot,n_other,coloc_spearman
+Collot_vs_Ren_DMG,3,5,0.699
+Collot_vs_Ren_GBM,3,6,0.702
+Collot_vs_Huchede,3,3,0.679
+Collot_vs_Kordowski,3,10,0.565

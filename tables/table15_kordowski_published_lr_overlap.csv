@@ -1,0 +1,11 @@
+region,n_top_published,overlap_with_ours,frac_of_top_published
+midbrain,94,69,0.734
+PonsA,102,77,0.755
+PonsB,106,78,0.736
+PonsC,104,86,0.827
+PonsD,102,77,0.755
+MedullaA,34,27,0.794
+MedullaB,59,42,0.712
+MedullaC,101,77,0.762
+SpinalCordA,93,72,0.774
+SpinalCordB,88,65,0.739
